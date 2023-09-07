@@ -18,6 +18,11 @@ body{
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,107,121,1) 54%, rgba(2,0,36,1) 100%);
 }
 
+.profile_container{
+    max-width: 370px;
+    width: 300px;
+}
+
 .picture_container{
     position: relative;
     width: 100px;
