@@ -77,5 +77,9 @@ body{
 
 .time_date{
     display: flex;
+}
+
+.clock{
+    color: gray;
     justify-content: space-between;
 }
