@@ -10,7 +10,9 @@
 
 body{
     height: 100vh;
+    display: flex;
     
+
 }
 
 .picture_container{
