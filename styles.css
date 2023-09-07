@@ -76,6 +76,7 @@ body{
 }
 
 .time_date{
+    margin-top: 25px;;
     display: flex;
 }
 
