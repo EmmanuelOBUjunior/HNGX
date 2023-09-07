@@ -65,6 +65,10 @@ body{
     justify-content: center;
 }
 
+.bxl-github{
+    font-size: 20px;
+}
+
 .github{
     text-decoration: none;
     color: blue;
