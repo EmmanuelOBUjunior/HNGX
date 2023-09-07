@@ -25,7 +25,7 @@ body{
     max-width: 370px;
     width: 100%;
     background-color: #fff;
-    box-shadow: 0px 5px 10px 0px rgba(194,190,226,0.75);
+    box-shadow: 0px 5px 10px rgba(194,190,226,0.75);
     padding: 24px;
     border-radius: 16px;
 }
