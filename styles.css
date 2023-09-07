@@ -43,5 +43,6 @@ body{
     object-fit: cover;
 }
 .nameTrack_container{
-    
+    display:flex;
+    flex-direction: column;
 }
