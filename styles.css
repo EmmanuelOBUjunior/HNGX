@@ -60,6 +60,10 @@ body{
 .track{
     font-size: 18px;
 }
+.media{
+    display: flex;
+    justify-content: center;
+}
 
 .github{
     text-decoration: none;
