@@ -10,7 +10,7 @@ function timeUpdate() {
     // const seconds = new Date().getSeconds()* 1000
 
 
-    return new Date().getTime();
+    return `${new Date().getTime()} UTC`;
 }
 
 function dateUpdate(){
