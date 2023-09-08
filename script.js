@@ -5,9 +5,9 @@ const dayElement = document.getElementById("date");
  * @param {Date} date 
  */
 function timeUpdate() {
-    const hours = new Date().getHours() * 60 * 60 * 1000
-    const minutes = new Date().getMinutes() * 60 * 1000
-    const seconds = new Date().getSeconds()* 1000
+    // const hours = new Date().getHours() * 60 * 60 * 1000
+    // const minutes = new Date().getMinutes() * 60 * 1000
+    // const seconds = new Date().getSeconds()* 1000
 
 
     return new Date().getTime();
