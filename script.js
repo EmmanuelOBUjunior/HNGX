@@ -21,5 +21,6 @@ function dateUpdate(){
 
 setInterval(() => {
     timeElement.textContent = timeUpdate();
-    dateElement.textContent = dateUpdate();
+
+    dayElement.textContent = dateUpdate();
 },200)
