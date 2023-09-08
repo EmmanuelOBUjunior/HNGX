@@ -9,7 +9,8 @@ function timeUpdate() {
     const minutes = new Date().getMinutes() * 60 * 1000
     const seconds = new Date().getSeconds()* 1000
 
-    return hours + minutes + seconds
+
+    return new Date().getTime();
 }
 
 function dateUpdate(){
@@ -25,4 +26,4 @@ setInterval(() => {
     timeElement.textContent = timeUpdate();
 
     dayElement.textContent = dateUpdate();
-},200)
+},1)
