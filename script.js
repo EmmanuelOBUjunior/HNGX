@@ -12,7 +12,12 @@ function timeUpdate(){
     return `${hours12.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")} ${isAm ?"AM":"PM"}`
 }
 
-
+function dateUpdate(){
+    const daysArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    const day = new Date().getDay()
+    
+    return `${daysArray[day]}`
+}
 
 console.log(timeUpdate());
-console.log(timeUpdate());
+console.log(dateUpdate());
