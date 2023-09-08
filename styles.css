@@ -81,8 +81,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
+#time{
+    margin-left: 10px;
+}
+
 
 .clock{
     color: gray;
-    margin: 20px;
 }
