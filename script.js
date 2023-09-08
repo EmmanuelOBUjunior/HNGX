@@ -9,7 +9,7 @@ function timeUpdate(){
     const minutes = new Date().getMinutes();
     const isAm = hours12 < 12;
 
-    return `${hours12.toString().padStart(2, '0')}:${minutes} ${isAm}`
+    return `${hours12}:${minutes} ${isAm}`
 }
 
 console.log(timeUpdate(date));
