@@ -20,6 +20,7 @@ function dateUpdate(){
 }
 
 setInterval(() => {
+    
     timeElement.textContent = timeUpdate();
 
     dayElement.textContent = dateUpdate();
