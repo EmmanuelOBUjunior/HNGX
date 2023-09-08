@@ -1,11 +1,14 @@
 const timeElement = document.getElementById("time");
 const dayElement = document.getElementById("date");
 
-
-function timeUpdate(){
-    const hours = new Date().getHours();
+/**
+ * 
+ * @param {Date} date 
+ */
+function timeUpdate(date){
+    const hours = date.getHours();
 
     return hours
 }
 
-console.log(timeUpdate());
+console.log(timeUpdate(date));
