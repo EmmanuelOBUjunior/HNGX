@@ -7,3 +7,5 @@ function timeUpdate(){
 
     return hours
 }
+
+console.log(timeUpdate());
