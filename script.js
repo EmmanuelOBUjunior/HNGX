@@ -2,13 +2,12 @@ const timeElement = document.getElementById("time");
 const dayElement = document.getElementById("date");
 
 /**
- * 
  * @param {Date} date 
  */
 function timeUpdate(date){
-    const hours = date.getHours();
+    const hours12 = date.getHours();
 
-    return hours
+    return hours12
 }
 
 console.log(timeUpdate(date));
