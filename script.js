@@ -15,9 +15,11 @@ function timeUpdate(){
 function dateUpdate(){
     const daysArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     const day = new Date().getDay()
-    
+
     return `${daysArray[day]}`
 }
 
-console.log(timeUpdate());
-console.log(dateUpdate());
+setInterval(() => {
+    timeElement.textContent = timeUpdate();
+    dateElement.textContent = dateUpdate();
+},200)
